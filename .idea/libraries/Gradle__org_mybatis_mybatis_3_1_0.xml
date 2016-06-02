@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.mybatis:mybatis:3.1.0">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.1.0/mybatis-3.1.0.jar!/" />
+      <root url="jar://E:/openSourceProject/go-lang-idea-plugin/caches/modules-2/files-2.1/org.mybatis/mybatis/3.1.0/895f39ea66e67bae5571190c6ed276ff260eae16/mybatis-3.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://E:/openSourceProject/go-lang-idea-plugin/caches/modules-2/files-2.1/org.mybatis/mybatis/3.1.0/5dfb9fa5097f087243ef8b07120ec4c2cff07aed/mybatis-3.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
