@@ -1,8 +1,12 @@
 package com.craft.java8.lamda;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.function.Consumer;
 import java.util.function.Predicate;
+import java.util.stream.Collector;
+import java.util.stream.Collectors;
 
 /**
  * Created by Xavier on 2016/6/2.
@@ -24,9 +28,13 @@ public class LamdaFunctionOrigin {
             test = test + i;
             return String.valueOf(i + from + test);};*/
 
-        Predicate<String> predicate = (String s) -> s.length() > 0;
-
-
+        Predicate<String> predicate = string -> string.length() > 0;
+        System.out.println(predicate.and(string -> string.length() <10).test("123445"));
+        List<Integer> arrayList = new ArrayList<>();
+        for (int i = 0; i < 1000; i++) {
+            arrayList.add(i);
+        }
+        System.out.println(arrayList.stream().filter(i -> i > 200).sorted((i, j) -> i - j).map(i -> i = 1).reduce( (sum ,item) -> sum + item));
     }
 
 
